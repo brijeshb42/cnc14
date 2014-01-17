@@ -95,7 +95,7 @@ $("#reach-bit").click(function(){
 $("#tshirt>a").click(function(){
 	$.console({
 		heading: 'CnC Tshirt',
-		data: '<p class="info"><a href="'+REG_LINK[2]+'"" target="_blank" >Get It</a></p><img width="500" src="/images/front.jpg" /><img width="500" src="/images/back.jpg" />',
+		data: '<p class="info"><a href="'+REG_LINK[2]+'"" target="_blank" >Get It</a></p><img width="900" src="/images/tshirt.jpg" />',
 		attr: 'top:10px'
 	});
 	return false;
