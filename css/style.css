@@ -1726,6 +1726,7 @@ background:url('../../../s3.amazonaws.com/onepagelove/one-page-love-award.png') 
 	position: fixed;
 	top: 20px;
 	left: 20px;
+	z-index: 1000;
 }
 
 #tshirt>a{
