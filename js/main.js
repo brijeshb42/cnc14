@@ -82,6 +82,9 @@ $('.features li').click(function(e){
 		message: 'Register',
 		data: GAMES[i].data
 	});
+	if(ga){
+		ga('send','event','games','click',GAMES[i].name);
+	}
 });
 
 $("#reach-bit").click(function(){
@@ -89,6 +92,9 @@ $("#reach-bit").click(function(){
 		heading: 'Reach BIT',
 		data: '<div style="text-align:center"><iframe width="800" height="400" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=Fd-EZAEdIVMWBSnfc4fXeOH0OTE5DOPVdllV5Q%3BFQdGZQEdiLYXBSEE58XzHAwYZinne8LwU_v0OTEE58XzHAwYZg&amp;q=kantatoli+to+bit+mesra&amp;sll=23.416715,85.452835&amp;sspn=0.035285,0.066047&amp;ie=UTF8&amp;ll=23.396361,85.388217&amp;spn=0.066444,0.086529&amp;t=h&amp;saddr=kantatoli&amp;daddr=bit+mesra&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=Fd-EZAEdIVMWBSnfc4fXeOH0OTE5DOPVdllV5Q%3BFQdGZQEdiLYXBSEE58XzHAwYZinne8LwU_v0OTEE58XzHAwYZg&amp;q=kantatoli+to+bit+mesra&amp;sll=23.416715,85.452835&amp;sspn=0.035285,0.066047&amp;ie=UTF8&amp;ll=23.396361,85.388217&amp;spn=0.066444,0.086529&amp;t=h&amp;saddr=kantatoli&amp;daddr=bit+mesra" style="color:#0000FF;text-align:left">View Larger Map</a></small></div>'
 	});
+	if(ga){
+		ga('send','event','reach-bit','click');
+	}
 	return false;
 });
 
@@ -98,6 +104,9 @@ $("#tshirt>a").click(function(){
 		data: '<p class="info"><a href="'+REG_LINK[2]+'"" target="_blank" >Get It</a></p><img width="900" src="/images/tshirt2.jpg" />',
 		attr: 'top:10px'
 	});
+	if(ga){
+		ga('send','event','tshirt','click');
+	}
 	return false;
 });
 
