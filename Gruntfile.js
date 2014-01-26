@@ -23,14 +23,21 @@ module.exports = function(grunt){
 					'css/style.css': ['css/normalize.css','css/gridism.css','css/main.css']
 				}
 			}
+		},
+
+		clean: {
+			build: {
+				src: ["_site"]
+			}
 		}
 	});
 
 	// Load uglify plugin
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
+	grunt.loadNpmTasks('grunt-contrib-clean');
 
 	// default task registration
-	grunt.registerTask('default', ['uglify','cssmin']);
+	grunt.registerTask('default', ['clean','uglify','cssmin']);
 
 }

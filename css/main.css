@@ -204,7 +204,7 @@ h1.title{
 
 .back{
     width: 100%;
-    height: 1600px;
+    max-height: 1600px;
     background: #272727 top left no-repeat fixed;
     background-repeat: repeat-y;
     -webkit-background-size: cover;
@@ -222,7 +222,7 @@ h1.title{
 }
 
 .back_0{
-    height: 1080px;
+    min-height: 1080px;
     background-image: url(../img/bg.jpg);
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg.jpg', sizingMethod='scale');
     -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg.jpg', sizingMethod='scale')";
@@ -244,18 +244,18 @@ h1.title{
 
 .back_3{
     background-color: #719BA8;
-    height: 700px;
+    min-height: 700px;
 }
 
 .back_4{
     background-color: #C6CCD6;
-    height: auto;
+    min-height: auto;
 }
 
 .back_5{
     color: #fff;
     background-color: #575757;
-    height: 700px;
+    min-height: 700px;
 }
 
 .back_blank{
