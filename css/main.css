@@ -276,7 +276,7 @@ h1.title{
 
 .back_3{
     background-color: #719BA8;
-    min-height: 700px;
+    max-height: 700px;
 }
 
 .back_4{
