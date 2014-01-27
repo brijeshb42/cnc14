@@ -20,7 +20,8 @@ module.exports = function(grunt){
 					banner: '/* For cnc2014.com */'
 				},
 				files: {
-					'css/style.css': ['css/normalize.css','css/gridism.css','css/main.css']
+					'css/style.css': ['css/normalize.css','css/gridism.css','css/main.css'],
+					'css/pace.min.css': ['css/pace-theme.css']
 				}
 			}
 		},
